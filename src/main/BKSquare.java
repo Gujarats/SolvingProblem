@@ -54,50 +54,46 @@ public class BKSquare {
     }
 
     private boolean getCheckStacked(Square square1, Square square2){
-        int a = square1.getCoordinate1().getX();
-            int b = square1.getCoordinate1().getY();
-            int c = square1.getCoordinate2().getX();
-            int d = square1.getCoordinate2().getY();
-            int e = square1.getCoordinate3().getX();
-            int f = square1.getCoordinate3().getY();
-            int g = square1.getCoordinate4().getX();
-            int h = square1.getCoordinate4().getY();
+        int x11= square1.getCoordinate1().getX();
+        int y11 = square1.getCoordinate1().getY();
+        int x12 = square1.getCoordinate2().getX();
+        int y13 = square1.getCoordinate3().getY();
 
 
-            int x1 = square2.getCoordinate1().getX();
-            int y1 = square2.getCoordinate1().getY();
-            int x2 = square2.getCoordinate2().getX();
-            int y2 = square2.getCoordinate2().getY();
-            int x3 = square2.getCoordinate3().getX();
-            int y3 = square2.getCoordinate3().getY();
-            int x4 = square2.getCoordinate4().getX();
-            int y4 = square2.getCoordinate4().getY();
+        int x21 = square2.getCoordinate1().getX();
+        int y21 = square2.getCoordinate1().getY();
+        int x22 = square2.getCoordinate2().getX();
+        int y22 = square2.getCoordinate2().getY();
+        int x23 = square2.getCoordinate3().getX();
+        int y23 = square2.getCoordinate3().getY();
+        int x24 = square2.getCoordinate4().getX();
+        int y24 = square2.getCoordinate4().getY();
 
 
-            int[] swapValue = swapValue(a,c);
-            a = swapValue[1];
-            c = swapValue[0];
+        int[] swapValue = swapValue(x11,x12);
+        x11 = swapValue[1];
+        x12 = swapValue[0];
 
-            swapValue = swapValue(f,b);
-            b = swapValue[0];
-            f = swapValue[1];
+        swapValue = swapValue(y13,y11);
+        y11 = swapValue[0];
+        y13 = swapValue[1];
 
-            boolean isX1 = isPointStacked(a,c,x1);
-            boolean isY1 = isPointStacked(f,b,y1);
+        boolean isX1 = isPointStacked(x11,x12,x21);
+        boolean isY1 = isPointStacked(y13,y11,y21);
 
-            boolean isX2 = isPointStacked(a,c,x2);
-            boolean isY2 = isPointStacked(f,b,y2);
+        boolean isX2 = isPointStacked(x11,x12,x22);
+        boolean isY2 = isPointStacked(y13,y11,y22);
 
-            boolean isX3 = isPointStacked(a,c,x3);
-            boolean isY3 = isPointStacked(f,b,y3);
+        boolean isX3 = isPointStacked(x11,x12,x23);
+        boolean isY3 = isPointStacked(y13,y11,y23);
 
-            boolean isX4 = isPointStacked(a,c,x4);
-            boolean isY4 = isPointStacked(f,b,y4);
+        boolean isX4 = isPointStacked(x11,x12,x24);
+        boolean isY4 = isPointStacked(y13,y11,y24);
 
-            if((isX1 && isX2 && isX3 && isX4) && (isY1 && isY2 && isY3 && isY4))
-                return true;
-            else
-                return false;
+        if((isX1 && isX2 && isX3 && isX4) && (isY1 && isY2 && isY3 && isY4))
+            return true;
+        else
+            return false;
     }
 
     /**
@@ -105,8 +101,7 @@ public class BKSquare {
      */
     private boolean isPointStacked(int point1, int point2, int target){
         if(point1<= target && target <= point2)
-            return true;
-        else
+            return true; else
             return false;
     }
 
@@ -126,6 +121,7 @@ public class BKSquare {
             return true;
         else
             return false;
+
     }
 
 
@@ -145,33 +141,113 @@ public class BKSquare {
      * INTERSECT SQUARE
      **/
     public boolean isIntersect(Square square1, Square square2){
-        // coordinate square 1
-        int a = square1.getCoordinate1().getX();
-        int b = square1.getCoordinate2().getX();
-        int c = square1.getCoordinate1().getY();
-        int d = square1.getCoordinate3().getY();
+        int x11= square1.getCoordinate1().getX();
+        int y11 = square1.getCoordinate1().getY();
+        int x12 = square1.getCoordinate2().getX();
+        int y13 = square1.getCoordinate3().getY();
 
-        // coordinate square 2
-        int x = square2.getCoordinate1().getX();
-        int y = square2.getCoordinate1().getY();
 
-        //swap between so a and c will always be highest number
-        int[] swapValue = swapValue(a,b);
-        a = swapValue[0];
-        b = swapValue[1];
+        int x21 = square2.getCoordinate1().getX();
+        int y21 = square2.getCoordinate1().getY();
+        int x22 = square2.getCoordinate2().getX();
+        int y22 = square2.getCoordinate2().getY();
+        int x23 = square2.getCoordinate3().getX();
+        int y23 = square2.getCoordinate3().getY();
+        int x24 = square2.getCoordinate4().getX();
+        int y24 = square2.getCoordinate4().getY();
 
-        swapValue = swapValue(c,d);
-        c = swapValue[0];
-        d = swapValue[1];
 
-        if((a >= x && b <= x) && (c >= y && d <= y)){
-            return true;
-        }else{
+        int[] swapValue = swapValue(x11,x12);
+        x11 = swapValue[1];
+        x12 = swapValue[0];
+
+        swapValue = swapValue(y13,y11);
+        y11 = swapValue[0];
+        y13 = swapValue[1];
+
+        boolean isX1 = isPointStacked(x11,x12,x21);
+        boolean isY1 = isPointStacked(y13,y11,y21);
+
+        boolean isX2 = isPointStacked(x11,x12,x22);
+        boolean isY2 = isPointStacked(y13,y11,y22);
+
+        boolean isX3 = isPointStacked(x11,x12,x23);
+        boolean isY3 = isPointStacked(y13,y11,y23);
+
+        boolean isX4 = isPointStacked(x11,x12,x24);
+        boolean isY4 = isPointStacked(y13,y11,y24);
+
+        System.out.println("isX1 = "+isX1);
+        System.out.println("isY1 = "+isY1);
+        System.out.println("isX2 = "+isX2);
+        System.out.println("isY2 = "+isY2);
+        System.out.println("isX3 = "+isX3);
+        System.out.println("isY3 = "+isY3);
+        System.out.println("isX4 = "+isX4);
+        System.out.println("isY4 = "+isY4);
+
+        if(isStacked(square1,square2))
             return false;
+        else if(isSeparate(square1,square2))
+            return false;
+        else{
+            if((isX1 || isY1) || (isX2 || isY2) || (isX3 || isY3) || (isX4 || isY4))
+                return true;
+            else
+                return false;
         }
+
 
     }
 
+    /**
+     * checking if given square is separate
+     */
+    public boolean isSeparate(Square square1, Square square2){
+        int x11= square1.getCoordinate1().getX();
+        int y11 = square1.getCoordinate1().getY();
+        int x12 = square1.getCoordinate2().getX();
+        int y13 = square1.getCoordinate3().getY();
+
+
+        int x21 = square2.getCoordinate1().getX();
+        int y21 = square2.getCoordinate1().getY();
+        int x22 = square2.getCoordinate2().getX();
+        int y22 = square2.getCoordinate2().getY();
+        int x23 = square2.getCoordinate3().getX();
+        int y23 = square2.getCoordinate3().getY();
+        int x24 = square2.getCoordinate4().getX();
+        int y24 = square2.getCoordinate4().getY();
+
+
+        int[] swapValue = swapValue(x11,x12);
+        x11 = swapValue[1];
+        x12 = swapValue[0];
+
+        swapValue = swapValue(y13,y11);
+        y11 = swapValue[0];
+        y13 = swapValue[1];
+
+        boolean isX1 = isPointStacked(x11,x12,x21);
+        boolean isY1 = isPointStacked(y13,y11,y21);
+
+        boolean isX2 = isPointStacked(x11,x12,x22);
+        boolean isY2 = isPointStacked(y13,y11,y22);
+
+        boolean isX3 = isPointStacked(x11,x12,x23);
+        boolean isY3 = isPointStacked(y13,y11,y23);
+
+        boolean isX4 = isPointStacked(x11,x12,x24);
+        boolean isY4 = isPointStacked(y13,y11,y24);
+
+        if(isX1 && isX2){
+            if(isX3 && isY3)
+                return false;
+            else
+                return true;
+        }else
+            return true;
+    }
     /**
      * swap value between varibale in java
      * http://stackoverflow.com/questions/1363186/is-it-possible-to-write-swap-method-in-java
