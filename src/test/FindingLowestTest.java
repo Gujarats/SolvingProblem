@@ -6,12 +6,12 @@ import static org.junit.Assert.assertEquals;
 /**
  * Created by gujarat on 10/10/16.
  */
-public class BKTest {
+public class FindingLowestTest {
     @Test
     public void TestGetLowestNumber(){
         int [] inputArray = new int[] {9,6,8,1,0,2};
-        BK bk = new BK();
-        Found found = bk.getLowestNumber(inputArray);
+        FindingLowest findingLowest = new FindingLowest();
+        Found found = findingLowest.getLowestNumber(inputArray);
 
         assertEquals(0,found.getValue());
         assertEquals(true,found.isFound());
@@ -33,5 +33,14 @@ public class BKTest {
 
        // SortingAlgorithm sortingAlgorithm =new SortingAlgorithm();
         //sortingAlgorithm.printArray(inputArray);
+    }
+
+    @Test
+    public void Test(){
+        FindingLowest findingLowest = new FindingLowest();
+        int [] inputArray = new int[] {9,6,8,1,0,2};
+        int result =findingLowest.getIndexLowest(inputArray);
+        assertEquals(-1,result);
+
     }
 }
