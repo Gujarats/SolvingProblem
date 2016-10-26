@@ -1,7 +1,10 @@
+package Algorithm;
+
 /**
  * Created by gujarat on 25/10/16.
  */
 public class SearchAlgorithm {
+
     public int BinarySearch(int [] inputArray, int x){
         int high = inputArray.length-1;
         int low = 0;
@@ -16,6 +19,15 @@ public class SearchAlgorithm {
             else
                 high = middle-1;
         }
+        return -1;
+    }
+
+    public int LinearSearch(int [] inputArray,int x){
+        for (int i = 0; i < inputArray.length; i++) {
+            if(inputArray[i]==x)
+                return i;
+        }
+
         return -1;
     }
 }

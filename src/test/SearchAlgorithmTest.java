@@ -1,3 +1,4 @@
+import Algorithm.SearchAlgorithm;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -13,5 +14,15 @@ public class SearchAlgorithmTest {
         int number = 15;
         int expected = -1;
         assertEquals(expected, searchAlgorithm.BinarySearch(inputArray,number));
+    }
+
+    @Test
+    public void linearSearchTest(){
+        SearchAlgorithm searchAlgorithm  = new SearchAlgorithm();
+        int [] inputArray = {2, 3, 5, 7, 11, 13, 17, 23, 29};
+        int number = 29;
+        int expected = 8;
+        assertEquals(expected, searchAlgorithm.LinearSearch(inputArray,number));
+
     }
 }

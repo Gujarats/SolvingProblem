@@ -1,3 +1,5 @@
+package Algorithm;
+
 /**
  * Created by gujarat on 02/10/16.
  */
@@ -14,6 +16,7 @@ public class SortingAlgorithm {
         }
         return inputArray;
     }
+
      public int [] bubleSortRecursive(int [] inputArray , int index){
          if(index > inputArray.length -1){
              return inputArray;

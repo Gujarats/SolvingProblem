@@ -1,6 +1,5 @@
+import Algorithm.SortingAlgorithm;
 import org.junit.Test;
-
-import java.util.Random;
 
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
@@ -105,7 +104,7 @@ public class SortingAlgorithmTest {
         //    inputArray[i] = randomNumber;
         //}
 
-       // SortingAlgorithm sortingAlgorithm =new SortingAlgorithm();
+       // Algorithm.SortingAlgorithm sortingAlgorithm =new Algorithm.SortingAlgorithm();
         //sortingAlgorithm.printArray(inputArray);
     }
 }

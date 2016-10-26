@@ -31,7 +31,7 @@ public class FindingLowestTest {
         //    inputArray[i] = randomNumber;
         //}
 
-       // SortingAlgorithm sortingAlgorithm =new SortingAlgorithm();
+       // Algorithm.SortingAlgorithm sortingAlgorithm =new Algorithm.SortingAlgorithm();
         //sortingAlgorithm.printArray(inputArray);
     }
 
