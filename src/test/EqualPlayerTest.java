@@ -1,6 +1,6 @@
 import org.junit.Test;
 
-import java.lang.reflect.Method;
+import static org.junit.Assert.assertEquals;
 
 /**
  * Created by gujarat on 26/10/16.
@@ -8,12 +8,10 @@ import java.lang.reflect.Method;
 public class EqualPlayerTest {
     @Test
     public void testGetPlayerIdTrue(){
-        int index = 2;
-        char expected = 'c';
         EqualPlayer equalPlayer = new EqualPlayer();
-        String result ="as";
-        result = ""+expected;
-        System.out.println(result);
+        String result = equalPlayer.getEqualPlayer(10);
+        String expected = "( ( a vs b ) vs ( ( c vs d ) vs e ) ) vs ( ( f vs g ) vs ( ( h vs i ) vs j ) )";
+        assertEquals(expected,result);
     }
 
 }
