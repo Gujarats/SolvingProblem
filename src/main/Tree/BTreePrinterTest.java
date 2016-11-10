@@ -110,9 +110,9 @@ public class BTreePrinterTest {
 
         // test print binary tree
         System.out.println("test1");
-        BTreePrinter.getInstance().printNode(test1());
+        BTreePrinter.getInstance().printNode(test2());
         System.out.println("Mirror");
-        BTreePrinter.getInstance().printNode(MirrorBTree.getInstance().mirrorTree2(test1()));
+        BTreePrinter.getInstance().printNode(MirrorBTree.getInstance().mirrorTree2(test2()));
 
         //System.out.println("test2");
         //BTreePrinter.getInstance().printNode(test2());

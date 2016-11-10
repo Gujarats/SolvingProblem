@@ -31,7 +31,7 @@ public class MirrorBTree {
 
 
     public <T extends Comparable<?>>Node mirrorTree2(Node<T> node){
-       if(node.right ==null && node.left == null) {
+       if(node == null) {
           return node;
        }
        //mirror node
