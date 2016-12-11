@@ -1,52 +1,41 @@
 package Codility;
 
 import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.junit.runners.Parameterized;
+
+import java.util.Arrays;
+import java.util.Collection;
 
 import static org.junit.Assert.assertEquals;
 
 /**
  * Created by gujarat on 02/11/16.
  */
+@RunWith(Parameterized.class)
 public class BinaryGapTest {
-    @Test
-    public void testGetHighestBinary(){
-        int inputNumber = 20;
-        String expected = "10100";
-        BinaryGap binaryGap = new BinaryGap();
-        assertEquals(expected,binaryGap.getBinary(inputNumber));
+
+    @Parameterized.Parameters(name = "Test {index}: LongestGapBinary ({0})={1}")
+    public static Collection<Object[]> dataHighestLength() {
+        return Arrays.asList(new Object[][] {
+                { "1000010001", 4},
+                { "10000100010000001", 6},
+                { "101001000_2", 2},
+        });
+    }
+
+    private String inputBinary;
+    private int expected;
+
+    private BinaryGap binaryGap = new BinaryGap();
+
+    public BinaryGapTest(String inputBinary, int expected) {
+        this.inputBinary = inputBinary;
+        this.expected = expected;
     }
 
     @Test
-    public void testGetHighestBinary2(){
-        int inputNumber = 123;
-        String expected = "1111011";
-        BinaryGap binaryGap = new BinaryGap();
-        assertEquals(expected,binaryGap.getBinary(inputNumber));
-    }
-
-    @Test
-    public void testGetHighestLength(){
-        String inputBinary = "1000010001";
-        int expected = 4;
-        BinaryGap binaryGap = new BinaryGap();
-        assertEquals(expected,binaryGap.getHigestLengt(inputBinary));
-    }
-
-
-    @Test
-    public void testGetHighestLength2(){
-        String inputBinary = "10000100010000001";
-        int expected = 6;
-        BinaryGap binaryGap = new BinaryGap();
-        assertEquals(expected,binaryGap.getHigestLengt(inputBinary));
-    }
-
-
-    @Test
-    public void testGetHighestLength3(){
-        String inputBinary = "101001000_2";
-        int expected = 2;
-        BinaryGap binaryGap = new BinaryGap();
+    public void test(){
         assertEquals(expected,binaryGap.getHigestLengt(inputBinary));
     }
 }
