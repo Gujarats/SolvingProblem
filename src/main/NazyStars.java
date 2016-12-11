@@ -3,14 +3,14 @@
  */
 public class NazyStars {
     public static void main(String [] args){
-        printNazyStars(5);
+        printNazyStars(9);
     }
 
     static void printNazyStars(int number){
         String [][] nazyStars = new String[number][number];
         nazyStars = assignNazyWithEmptySpace(nazyStars);
         // finding the middle matrix index
-        int middle = (1 + (number /2))-1;
+        int middle = (number /2);
 
         //first line above
         for (int i = 0; i <=middle; i++) {
