@@ -1,23 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="6868959e-e304-487b-9412-9daac071ff9a" name="Default" comment="Binary Tree Print and Mirror">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/NewSwitchCase/SwitchCase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Codility/BinaryGap.java" afterPath="$PROJECT_DIR$/src/main/Codility/BinaryGap.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/NazyStars.java" afterPath="$PROJECT_DIR$/src/main/NazyStars.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Tree/MirrorBTree.java" afterPath="$PROJECT_DIR$/src/main/Tree/MirrorBTree.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/Codility/BinaryGapTest.java" afterPath="$PROJECT_DIR$/src/test/Codility/BinaryGapTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/DigitIncreasingTest.java" afterPath="$PROJECT_DIR$/src/test/DigitIncreasingTest.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Exercise 1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Exercise_1_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Exercise_1_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Algorithm/SearchAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Algorithm/SearchAlgorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Algorithm/SortingAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Algorithm/SortingAlgorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/BKMainTest/ArraySwap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BKMainTest/ArraySwap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/BKMainTest/CheckPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BKMainTest/CheckPassword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/BKMainTest/PhoneNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BKMainTest/PhoneNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/BKSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BKSquare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Codility/BinaryGap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Codility/BinaryGap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Codility/BinaryGapMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Codility/BinaryGapMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/DigitExercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DigitExercise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/EqualPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EqualPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/FindingLowest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindingLowest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/FindingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindingNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/GetCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GetCharacter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/LinkListExercise/DoubleLinkList/Neighboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LinkListExercise/DoubleLinkList/Neighboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/LinkListExercise/Link.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LinkListExercise/Link.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/LinkListExercise/LinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LinkListExercise/LinkList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/LinkListExercise/MainLinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LinkListExercise/MainLinkList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Matrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/NazyStars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NazyStars.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/SumArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SumArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Tree/BTreePrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tree/BTreePrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Tree/BTreePrinterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tree/BTreePrinterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Tree/MirrorBTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tree/MirrorBTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Tree/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tree/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Word/UniqueWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Word/UniqueWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/maharishi/DigitIncreasing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/maharishi/DigitIncreasing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/maharishi/EquivalentArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/maharishi/EquivalentArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/maharishi/SameFactorNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/maharishi/SameFactorNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/object/Coordinate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/object/Coordinate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/object/Found.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/object/Found.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/object/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/object/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/BKSquareTesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BKSquareTesting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/BK_Main/ArraySwapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BK_Main/ArraySwapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/BK_Main/CheckPasswordTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BK_Main/CheckPasswordTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/BK_Main/PhoneNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BK_Main/PhoneNumberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Codility/BinaryGapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Codility/BinaryGapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/DigitExerciseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DigitExerciseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/DigitIncreasingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DigitIncreasingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/EqualPlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EqualPlayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/EquivalentArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EquivalentArrayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/FindingLowestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FindingLowestTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/FindingNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FindingNumberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/GetCharacterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GetCharacterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/MatrixTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MatrixTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/SameFactorNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SameFactorNumberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/SearchAlgorithmTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SearchAlgorithmTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/SortingAlgorithmTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SortingAlgorithmTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/SumArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SumArrayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Tree/BTreePrinterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tree/BTreePrinterTest.java" afterDir="false" />
     </list>
-    <ignored path="Exercise Algorithm.iws" />
-    <ignored path=".idea/workspace.xml" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/.gradle/" />
-    <ignored path="$PROJECT_DIR$/build/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,7 +72,6 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -35,32 +80,33 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <projects_view />
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Exercise 1" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Exercise 1" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Exercise 1" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="Exercise Algorithm" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DigitIncreasingTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/DigitIncreasingTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#444#445#0" expanded="true" />
-                <element signature="e#480#481#0" expanded="true" />
-                <element signature="e#519#520#0" expanded="true" />
-                <element signature="e#558#559#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -469,18 +515,15 @@
       </list>
     </option>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="Bundled (Maven 3)" />
-      </MavenGeneralSettings>
-    </option>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="24" />
     <option name="width" value="1920" />
     <option name="height" value="1056" />
   </component>
+  <component name="ProjectId" id="2We38FBVYXTVblbpLazb9qfEgMa" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
@@ -503,16 +546,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -659,186 +693,32 @@
       </pane>
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.DigitIncreasingTest.testTable">
-    <configuration default="false" name="BinaryGapTest.testGetHighesNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Codility.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Exercise_1_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Codility" />
-      <option name="MAIN_CLASS_NAME" value="Codility.BinaryGapTest" />
-      <option name="METHOD_NAME" value="testGetHighesNumber" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="SwitchCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="NewSwitchCase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="NewSwitchCase.SwitchCase" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Exercise_1_main" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="ArraySwapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="BK_Main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Exercise_1_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="BK_Main" />
-      <option name="MAIN_CLASS_NAME" value="BK_Main.ArraySwapTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="NazyStars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="NazyStars" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Exercise_1_main" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="DigitIncreasingTest.testTable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="Exercise_1_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DigitIncreasingTest" />
-      <option name="METHOD_NAME" value="testTable" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <method />
-    </configuration>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "last_opened_file_path": "/Users/gujaratsantana/gujarats/SolvingProblem",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/src/test/java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.MatrixTest.testMatrix">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
-      <method />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
@@ -860,88 +740,6 @@
       </option>
       <envs />
       <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="JarApplication" factoryName="JAR Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SCRATCH_FILE_ID" value="0" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Exercise 1" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
       <method />
     </configuration>
     <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
@@ -972,26 +770,176 @@
       <listeners />
       <method />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.BinaryGapTest.testGetHighesNumber" />
-      <item index="1" class="java.lang.String" itemvalue="Application.SwitchCase" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ArraySwapTest" />
-      <item index="3" class="java.lang.String" itemvalue="Application.NazyStars" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.DigitIncreasingTest.testTable" />
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BKSquareTesting" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;BKSquareTesting&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="DigitExerciseTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;DigitExerciseTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="DigitIncreasingTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;DigitIncreasingTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="DigitIncreasingTest.test5" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;DigitIncreasingTest.test5&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MatrixTest.testMatrix" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;MatrixTest.testMatrix&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.BKSquareTesting" />
+      <item itemvalue="Gradle.DigitExerciseTest" />
+      <item itemvalue="Gradle.DigitIncreasingTest" />
+      <item itemvalue="Gradle.DigitIncreasingTest.test5" />
+      <item itemvalue="Gradle.MatrixTest.testMatrix" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.DigitIncreasingTest.testTable" />
-        <item index="1" class="java.lang.String" itemvalue="Application.NazyStars" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ArraySwapTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.SwitchCase" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.BinaryGapTest.testGetHighesNumber" />
+      <list>
+        <item itemvalue="Gradle.MatrixTest.testMatrix" />
+        <item itemvalue="Gradle.DigitIncreasingTest.test5" />
+        <item itemvalue="Gradle.DigitIncreasingTest" />
+        <item itemvalue="Gradle.DigitExerciseTest" />
+        <item itemvalue="Gradle.BKSquareTesting" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -1212,6 +1160,17 @@
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.gitignore" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
       <collection />
@@ -1219,9 +1178,6 @@
     <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="get Character and Sum arraye of the odd number and even" />
@@ -1238,10 +1194,6 @@
     <MESSAGE value="Binary Tree Print and Mirror" />
     <MESSAGE value="fix null value on Mirror BTree" />
     <option name="LAST_COMMIT_MESSAGE" value="fix null value on Mirror BTree" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
